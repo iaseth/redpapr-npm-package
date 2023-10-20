@@ -1,0 +1,14 @@
+{
+  "name": "redpapr",
+  "version": "0.1.0",
+  "description": "Redpapr Npm Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["redpapr"],
+  "author": "iaseth",
+  "homepage": "https://github.com/iaseth/redpapr-npm-package",
+  "repository": "iaseth/redpapr-npm-package",
+  "license": "GPL"
+}

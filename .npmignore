@@ -1,0 +1,10 @@
+
+data/
+docs/
+examples/
+src/
+tests/
+
+Makefile
+
+*.rx
