@@ -1,6 +1,6 @@
 {
   "name": "redpapr",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "Redpapr Npm Package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -21,6 +21,7 @@
   "license": "GPL",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/react": "^18.2.31",
