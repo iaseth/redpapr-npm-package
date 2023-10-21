@@ -1,2 +1,2 @@
 
-export * from "../../src/data";
+export * from "../../package/src/data";

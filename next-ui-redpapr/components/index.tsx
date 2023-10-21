@@ -1,2 +1,2 @@
 
-export * from "../../src/components";
+export * from "../../package/src/components";

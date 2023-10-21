@@ -1,5 +1,5 @@
+import { CopyRightFooter } from "../..";
 import BrandFooter from "./BrandFooter/BrandFooter";
-import CopyRightFooter from "./CopyRightFooter/CopyRightFooter";
 import ProductsFooter from "./ProductsFooter/ProductsFooter";
 import QuickLinksFooter from "./QuickLinksFooter/QuickLinksFooter";
 
