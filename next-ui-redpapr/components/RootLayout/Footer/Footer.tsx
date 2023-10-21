@@ -1,17 +1,14 @@
-import { CopyRightFooter } from "../..";
-import BrandFooter from "./BrandFooter/BrandFooter";
-import ProductsFooter from "./ProductsFooter/ProductsFooter";
-import QuickLinksFooter from "./QuickLinksFooter/QuickLinksFooter";
+import { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } from "../..";
 
 
 
 export default function Footer () {
 	return (
 		<>
-			<div className="hidden">
+			<div className="">
 				<ProductsFooter />
 				<QuickLinksFooter />
-				<BrandFooter />
+				<BrandingFooter />
 			</div>
 			<CopyRightFooter />
 		</>

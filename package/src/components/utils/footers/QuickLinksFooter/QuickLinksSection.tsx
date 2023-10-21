@@ -1,4 +1,4 @@
-import { RedpaprJsonQuickLinkColumn } from "@/data";
+import { RedpaprJsonQuickLinkColumn } from "@/data/redpapr";
 
 
 
