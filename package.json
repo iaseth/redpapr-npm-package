@@ -1,10 +1,15 @@
 {
   "name": "redpapr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Redpapr Npm Package",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup-build-lib": "rollup -c"
   },
   "keywords": [
     "redpapr"
@@ -14,9 +19,15 @@
   "repository": "iaseth/redpapr-npm-package",
   "license": "GPL",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
     "@types/react": "^18.2.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^4.1.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   }
 }
