@@ -1,5 +1,5 @@
-import { P5 } from "../../base";
-import { DefaultLinkProps } from "../DefaultLink/DefaultLink";
+import { P5 } from "../../../base";
+import { DefaultLinkProps } from "../../DefaultLink/DefaultLink";
 
 
 

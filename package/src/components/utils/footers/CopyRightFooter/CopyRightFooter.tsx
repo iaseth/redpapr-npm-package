@@ -1,5 +1,5 @@
-import { H3, P5 } from "../../base";
-import { DefaultLink, DefaultLinkProps } from "../DefaultLink/DefaultLink";
+import { H3, P5 } from "../../../base";
+import { DefaultLink, DefaultLinkProps } from "../../DefaultLink/DefaultLink";
 import CopyRightFooterLink from "./CopyRightFooterLink";
 
 
