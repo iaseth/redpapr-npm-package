@@ -1,3 +1,3 @@
 
-export { redMeta, redpaprJson } from "./redpapr";
+export * from "./redpapr";
 // export { optionalSubjects } from "./optionals";

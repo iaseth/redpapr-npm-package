@@ -1,4 +1,4 @@
-import { RedpaprJsonProduct } from "@/data/redpapr";
+import { RedpaprJsonProduct } from "@/data";
 
 
 
