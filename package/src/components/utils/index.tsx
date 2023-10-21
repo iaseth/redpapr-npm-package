@@ -2,6 +2,7 @@
 export { default as ImageSlider } from "./ImageSlider/ImageSlider";
 export { default as Textron } from "./Textron/Textron";
 export { default as SliderButtons } from "./SliderButtons/SliderButtons";
+export { default as BetaInvitation } from "./BetaInvitation/BetaInvitation";
 export { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } from "./footers";
 
 export { default as TextSlider } from "./TextSlider/TextSlider";

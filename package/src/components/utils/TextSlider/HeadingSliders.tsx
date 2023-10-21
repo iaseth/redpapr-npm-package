@@ -1,4 +1,4 @@
-import { TextSlider } from ".."
+import { default as TextSlider } from "./TextSlider"
 
 
 

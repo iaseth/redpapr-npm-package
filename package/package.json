@@ -1,6 +1,6 @@
 {
   "name": "redpapr",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Redpapr Npm Package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
