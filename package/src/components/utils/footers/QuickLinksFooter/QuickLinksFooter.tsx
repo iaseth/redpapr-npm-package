@@ -1,4 +1,4 @@
-import { redpaprJson } from "@/data";
+import { redpaprJson } from "../../../../data/redpapr";
 import QuickLinksSection from "./QuickLinksSection";
 
 
