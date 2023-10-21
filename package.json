@@ -6,9 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["redpapr"],
+  "keywords": [
+    "redpapr"
+  ],
   "author": "iaseth",
   "homepage": "https://github.com/iaseth/redpapr-npm-package",
   "repository": "iaseth/redpapr-npm-package",
-  "license": "GPL"
+  "license": "GPL",
+  "devDependencies": {
+    "@types/react": "^18.2.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
 }
