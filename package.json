@@ -1,6 +1,6 @@
 {
   "name": "redpapr",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Redpapr Npm Package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,8 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "rollup-build-lib": "rollup -c"
+    "rollup-build-lib": "rollup -c",
+    "build": "rollup -c"
   },
   "keywords": [
     "redpapr"
