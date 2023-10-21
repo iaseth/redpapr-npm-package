@@ -5,7 +5,7 @@ import { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } fro
 export default function Footer () {
 	return (
 		<>
-			<div className="">
+			<div className="hidden">
 				<ProductsFooter />
 				<QuickLinksFooter />
 				<BrandingFooter />

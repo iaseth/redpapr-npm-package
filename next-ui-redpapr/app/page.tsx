@@ -1,11 +1,11 @@
-import { BetaInvitation } from "../../package/src";
+import { H1 } from "../../package/src";
 
 
 
 export default function Home() {
 	return (
-		<header className="px-4 py-12 text-center">
-			<BetaInvitation />
+		<header className="">
+			<H1>This is an H1</H1>
 		</header>
 	);
 }

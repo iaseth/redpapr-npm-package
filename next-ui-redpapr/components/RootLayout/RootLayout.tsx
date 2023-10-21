@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Main from "./Main/Main";
+import Sidebar from './Sidebar/Sidebar';
 
 const myFont = myFontModule({
 	subsets: ['latin'],
@@ -28,9 +28,16 @@ if (document.location.hostname.search("redpapr.com") !== -1) {
 				`}
 			</Script>
 			<body className={myFont.className}>
-				<Header />
-				<Main>{children}</Main>
-				<Footer />
+				<main className="h-screen bg-zinc-900 text-white flex">
+					<Sidebar />
+					<section className="h-screen grow overflow-y-scroll">
+						<Header />
+						<section className="min-h-screen">
+							<article className="max-w-5xl mx-auto px-4 py-12 text-left">{children}</article>
+						</section>
+						<Footer />
+					</section>
+				</main>
 			</body>
 		</html>
 	);
