@@ -1,2 +1,0 @@
-
-export { BetaInvitation } from "./BetaInvitation";
