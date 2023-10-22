@@ -1,4 +1,5 @@
 import { H2, H4 } from "../../../../package/src";
+import SidebarSection from "./SidebarSection";
 
 
 
@@ -9,6 +10,14 @@ export default function Sidebar () {
                 <H2>Redpapr</H2>
                 <H4>Redifining Education</H4>
             </header>
+            <footer className="px-3 py-3">
+                <SidebarSection heading="Basics" links={[
+                    {"href": "one", "title": "One"},
+                    {"href": "two", "title": "Two"},
+                    {"href": "three", "title": "Three"},
+                    {"href": "four", "title": "Four"}
+                ]} />
+            </footer>
         </aside>
     );
 }
