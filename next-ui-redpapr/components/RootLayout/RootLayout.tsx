@@ -17,13 +17,13 @@ interface RootLayoutProps {
 export default function RootLayout ({children}: RootLayoutProps) {
 	return (
 		<html lang="en">
-			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-BHR7Q0Q62F" />
 			<Script type="text/javascript" id="google-analytics">
 				{`
 window.dataLayer = window.dataLayer || [];
 function gtag() {dataLayer.push(arguments);};
-if (document.location.hostname.search("redpapr.com") !== -1) {
-	gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');
+if (document.location.hostname.search("ui.redpapr.com") !== -1) {
+	gtag('js', new Date()); gtag('config', 'G-BHR7Q0Q62F');
 }
 				`}
 			</Script>
