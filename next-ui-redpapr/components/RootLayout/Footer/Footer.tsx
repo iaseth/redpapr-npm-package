@@ -8,8 +8,8 @@ export default function Footer () {
 			<div className="hidden">
 				<ProductsFooter />
 				<QuickLinksFooter />
-				<BrandingFooter />
 			</div>
+			<BrandingFooter />
 			<CopyRightFooter />
 		</>
 	);

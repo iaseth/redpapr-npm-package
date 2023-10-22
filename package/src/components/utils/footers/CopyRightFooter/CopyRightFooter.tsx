@@ -5,14 +5,16 @@ import CopyRightFooterLink from "./CopyRightFooterLink";
 
 
 interface CopyRightFooterProps {
+	className?: string,
 	Link?: React.FC<DefaultLinkProps>
 }
 
 export default function CopyRightFooter ({
+	className="",
 	Link=DefaultLink
 }: CopyRightFooterProps) {
 	return (
-		<footer className="bg-zinc-50 text-zinc-800 border-t border-zinc-300 px-4 py-12 text-left">
+		<footer className={"bg-zinc-900 text-zinc-800 px-4 py-12 text-left " + className}>
 			<main className="max-w-5xl mx-auto px-4 py-4 grid md:grid-cols-2 gap-x-4 gap-y-4 text-zinc-500">
 				<section>
 					<H3 className="text-red-500">
