@@ -23,18 +23,18 @@ npm i redpapr
 
 
 ## Setup
-Add the following path to your `tailwind.config.js`:
-```
-content: [
-    // add the line below
-    '../package/src/components/**/*.{js,ts,jsx,tsx,mdx}',
-],
-```
+* Add the following path to your `tailwind.config.js`:
+    ```
+    content: [
+        // add the line below
+        './node_modules/redpapr/src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
+    ```
 
-Import the following `CSS` if you want to use Redpapr CSS classes in your project:
-```
-import '../../package/css/redpapr.css';
-```
+* Import the following `CSS` file in your project:
+    ```
+    import './node_modules/redpapr/css/redpapr.css';
+    ```
 
 Now you should be able to import and use Redpapr UI components in your project.
 
