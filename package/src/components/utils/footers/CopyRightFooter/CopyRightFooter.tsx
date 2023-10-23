@@ -1,34 +1,33 @@
-import { H3, P5 } from "../../../base";
-import { DefaultLink, DefaultLinkProps } from "../../DefaultLink/DefaultLink";
 import CopyRightFooterLink from "./CopyRightFooterLink";
 
 
 
 interface CopyRightFooterProps {
 	className?: string,
-	Link?: React.FC<DefaultLinkProps>
+	newtab?: boolean
 }
 
 export default function CopyRightFooter ({
 	className="",
-	Link=DefaultLink
+	newtab=false
 }: CopyRightFooterProps) {
 	return (
 		<footer className={"bg-zinc-900 text-zinc-800 px-4 py-12 text-left " + className}>
 			<main className="max-w-5xl mx-auto px-4 py-4 grid md:grid-cols-2 gap-x-4 gap-y-4 text-zinc-500">
-				<section>
-					<H3 className="text-red-500">
-						<Link href="/">&copy; Redpapr</Link>
-					</H3>
-					<P5>Copyright &copy; 2023 Redpapr.</P5>
-					<P5>All rights reserved.</P5>
+				<section className="space-y-1">
+					<h3 className="text-red-500">
+						<a href="https://www.redpapr.com/">&copy; Redpapr</a>
+					</h3>
+					<p className="p5">Copyright &copy; 2023 Redpapr.</p>
+					<p className="p5">All rights reserved.</p>
 				</section>
-				<section className="grid grid-cols-2 gap-x-3 gap-y-2">
-					<CopyRightFooterLink href="privacy" title="Privacy Policy" Link={Link} />
-					<CopyRightFooterLink href="terms" title="Terms of Use" Link={Link} />
-					<CopyRightFooterLink href="payments" title="Payments and Refunds" Link={Link} />
-					<CopyRightFooterLink href="legal" title="Legal" Link={Link} />
-					<CopyRightFooterLink href="sitemap" title="Site Map" Link={Link} />
+
+				<section className="grid grid-cols-2 gap-x-3 gap-y-3">
+					<CopyRightFooterLink href="https://www.redpapr.com/privacy" title="Privacy Policy" newtab={newtab} />
+					<CopyRightFooterLink href="https://www.redpapr.com/terms" title="Terms of Use" newtab={newtab} />
+					<CopyRightFooterLink href="https://www.redpapr.com/payments" title="Payments and Refunds" newtab={newtab} />
+					<CopyRightFooterLink href="https://www.redpapr.com/legal" title="Legal" newtab={newtab} />
+					<CopyRightFooterLink href="https://www.redpapr.com/sitemap" title="Site Map" newtab={newtab} />
 				</section>
 			</main>
 		</footer>

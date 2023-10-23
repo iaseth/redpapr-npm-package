@@ -1,18 +1,16 @@
-import { P5 } from "../../../base";
-import { DefaultLinkProps } from "../../DefaultLink/DefaultLink";
 
 
 
 interface CopyRightFooterLinkProps {
 	href: string,
 	title: string,
-	Link: React.FC<DefaultLinkProps>
+	newtab: boolean
 }
 
-export default function CopyRightFooterLink ({href, title, Link}: CopyRightFooterLinkProps) {
+export default function CopyRightFooterLink ({href, title, newtab}: CopyRightFooterLinkProps) {
 	return (
-		<P5>
-			<Link href={href}>{title}</Link>
-		</P5>
+		<p className="p5">
+			<a href={href}target={newtab ? "_blank" : "_self"}>{title}</a>
+		</p>
 	);
 }

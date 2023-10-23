@@ -10,7 +10,7 @@ export default function Footer () {
 				<QuickLinksFooter />
 			</div>
 			<BrandingFooter />
-			<CopyRightFooter />
+			<CopyRightFooter newtab={true} />
 		</>
 	);
 }
