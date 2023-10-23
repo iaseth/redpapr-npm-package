@@ -1,0 +1,34 @@
+[
+	{
+		"title": "RedHome",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"internalURL": "/app",
+		"webURL": "https://home.redpapr.com/"
+	},
+	{
+		"title": "RedQuest",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"internalURL": "/app",
+		"webURL": "https://quest.redpapr.com/"
+	},
+	{
+		"title": "QCAB",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"internalURL": "/app",
+		"webURL": "https://qcab.redpapr.com/"
+	},
+	{
+		"title": "RedBlog",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"internalURL": "/app",
+		"webURL": "https://blog.redpapr.com/"
+	}
+]

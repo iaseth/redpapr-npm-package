@@ -1,11 +1,7 @@
 {
 	"meta": {
 		"appName": "Redpapr",
-		"appURL": "redpapr.com",
-		"description": "Redpapr is a dedicated online platform for UPSC CSE preparation.",
-		"tagline": "Where babus become babus.",
-		"contactEmail": "redpapr@gmail.com",
-		"contactMobile": "XXX-XXX-XXXX"
+		"website": "redpapr.com"
 	},
 	"products": [
 		{
@@ -46,11 +42,26 @@
 			"heading": "Something",
 			"description": "This is just some description",
 			"links": [
-				{"title": "One", "URL": "https://www.redpapr.com/"},
-				{"title": "Two", "URL": "https://www.redpapr.com/"},
-				{"title": "Three", "URL": "https://www.redpapr.com/"},
-				{"title": "Four", "URL": "https://www.redpapr.com/"},
-				{"title": "Five", "URL": "https://www.redpapr.com/"}
+				{
+					"title": "One",
+					"URL": "https://www.redpapr.com/"
+				},
+				{
+					"title": "Two",
+					"URL": "https://www.redpapr.com/"
+				},
+				{
+					"title": "Three",
+					"URL": "https://www.redpapr.com/"
+				},
+				{
+					"title": "Four",
+					"URL": "https://www.redpapr.com/"
+				},
+				{
+					"title": "Five",
+					"URL": "https://www.redpapr.com/"
+				}
 			]
 		},
 		{
