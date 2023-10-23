@@ -9,7 +9,7 @@ interface QuickLinksSectionProps {
 export default function QuickLinksSection ({column}: QuickLinksSectionProps) {
 	return (
 		<section className="">
-			<header className="text-center">
+			<header className="">
 				<h4>{column.heading}</h4>
 			</header>
 			<main>

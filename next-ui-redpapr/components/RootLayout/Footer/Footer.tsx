@@ -5,10 +5,8 @@ import { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } fro
 export default function Footer () {
 	return (
 		<>
-			<div className="hidden">
-				<ProductsFooter />
-				<QuickLinksFooter />
-			</div>
+			<QuickLinksFooter />
+			<ProductsFooter />
 			<BrandingFooter />
 			<CopyRightFooter newtab={true} />
 		</>
