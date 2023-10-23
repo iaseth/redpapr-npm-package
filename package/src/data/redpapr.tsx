@@ -30,10 +30,11 @@ export interface RedpaprJsonProduct {
 
 export interface RedpaprJsonQuickLinkColumn {
 	heading: string,
+	description: string,
 	links: RedpaprJsonQuickLink[],
 }
 
-interface RedpaprJsonQuickLink {
+export interface RedpaprJsonQuickLink {
 	title: string,
 	URL: string,
 }

@@ -43,27 +43,39 @@
 	],
 	"quickLinks": [
 		{
-			"heading": "Heading 1",
+			"heading": "Something",
+			"description": "This is just some description",
+			"links": [
+				{"title": "One", "URL": "https://www.redpapr.com/"},
+				{"title": "Two", "URL": "https://www.redpapr.com/"},
+				{"title": "Three", "URL": "https://www.redpapr.com/"},
+				{"title": "Four", "URL": "https://www.redpapr.com/"},
+				{"title": "Five", "URL": "https://www.redpapr.com/"}
+			]
+		},
+		{
+			"heading": "Something Else",
+			"description": "This is just some description",
 			"links": []
 		},
 		{
-			"heading": "Heading 2",
+			"heading": "Something",
+			"description": "This is just some description",
 			"links": []
 		},
 		{
-			"heading": "Heading 3",
+			"heading": "Something Else",
+			"description": "This is just some description",
 			"links": []
 		},
 		{
-			"heading": "Heading 4",
+			"heading": "Something",
+			"description": "This is just some description",
 			"links": []
 		},
 		{
-			"heading": "Heading 5",
-			"links": []
-		},
-		{
-			"heading": "Heading 6",
+			"heading": "Something Else",
+			"description": "This is just some description",
 			"links": []
 		}
 	],
