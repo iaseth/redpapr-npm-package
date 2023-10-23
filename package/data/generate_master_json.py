@@ -15,7 +15,6 @@ def main():
 	jo = {}
 	for json_file in json_files:
 		json_name = json_file[:-5]
-		print(f"{json_file} => {json_name}")
 		jo[json_name] = json.load(open(json_file))
 
 	with open(OUTPUT_JSON_PATH, "w") as f:

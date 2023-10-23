@@ -1,7 +1,11 @@
 {
 	"meta": {
 		"appName": "Redpapr",
-		"website": "redpapr.com"
+		"appURL": "redpapr.com",
+		"description": "Redpapr is a dedicated online platform for UPSC CSE preparation.",
+		"tagline": "Doing the Tech bit in EdTech",
+		"contactEmail": "redpapr@gmail.com",
+		"contactMobile": "XXX-XXX-XXXX"
 	},
 	"products": [
 		{
