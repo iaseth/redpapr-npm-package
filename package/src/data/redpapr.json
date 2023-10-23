@@ -9,36 +9,36 @@
 	},
 	"products": [
 		{
-			"title": "App",
+			"title": "RedHome",
 			"className": "app",
-			"description": "This is an app for all seasons.",
-			"tagline": "Just app.",
+			"description": "This is just some description about the app.",
+			"tagline": "This is the tagline",
 			"internalURL": "/app",
-			"URL": "https://app.redpapr.com/"
+			"webURL": "https://home.redpapr.com/"
 		},
 		{
-			"title": "App",
+			"title": "RedQuest",
 			"className": "app",
-			"description": "This is an app for all seasons.",
-			"tagline": "Just app.",
+			"description": "This is just some description about the app.",
+			"tagline": "This is the tagline",
 			"internalURL": "/app",
-			"URL": "https://app.redpapr.com/"
+			"webURL": "https://quest.redpapr.com/"
 		},
 		{
-			"title": "App",
+			"title": "QCAB",
 			"className": "app",
-			"description": "This is an app for all seasons.",
-			"tagline": "Just app.",
+			"description": "This is just some description about the app.",
+			"tagline": "This is the tagline",
 			"internalURL": "/app",
-			"URL": "https://app.redpapr.com/"
+			"webURL": "https://qcab.redpapr.com/"
 		},
 		{
-			"title": "App",
+			"title": "RedBlog",
 			"className": "app",
-			"description": "This is an app for all seasons.",
-			"tagline": "Just app.",
+			"description": "This is just some description about the app.",
+			"tagline": "This is the tagline",
 			"internalURL": "/app",
-			"URL": "https://app.redpapr.com/"
+			"webURL": "https://blog.redpapr.com/"
 		}
 	],
 	"quickLinks": [
