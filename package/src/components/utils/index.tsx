@@ -1,4 +1,5 @@
 
+export { RedpaprIcon } from "./branding";
 export { default as ImageSlider } from "./ImageSlider/ImageSlider";
 export { default as Textron } from "./Textron/Textron";
 export { default as SliderButtons } from "./SliderButtons/SliderButtons";
