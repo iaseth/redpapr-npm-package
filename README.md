@@ -27,13 +27,13 @@ npm i redpapr
     ```
     content: [
         // add the line below
-        './node_modules/redpapr/src/components/**/*.{js,ts,jsx,tsx,mdx}',
+        './node_modules/redpapr/dist/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     ```
 
 * Import the following `CSS` file in your project:
     ```
-    import './node_modules/redpapr/css/redpapr.css';
+    import '../node_modules/redpapr/css/redpapr.css';
     ```
 
 Now you should be able to import and use Redpapr UI components in your project.
