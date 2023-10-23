@@ -14,7 +14,7 @@ export default function BrandingFooter () {
 				</section>
 
 				<section>
-					<h3>Reach out to us</h3>
+					<h3>Contact Us</h3>
 				</section>
 
 				<section>
