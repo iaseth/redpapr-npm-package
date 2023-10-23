@@ -10,7 +10,7 @@ interface CopyRightFooterLinkProps {
 export default function CopyRightFooterLink ({href, title, newtab}: CopyRightFooterLinkProps) {
 	return (
 		<p className="p5">
-			<a href={href}target={newtab ? "_blank" : "_self"}>{title}</a>
+			<a href={href} target={newtab ? "_blank" : "_self"} className="red-link">{title}</a>
 		</p>
 	);
 }
