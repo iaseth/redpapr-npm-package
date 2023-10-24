@@ -1,5 +1,5 @@
 import { redpaprJson } from "../../../../data";
-import { Container } from "../../../base";
+import { Container, EmailID, MobileNumber } from "../../../base";
 import { RedpaprIcon } from "../../branding";
 import SocialMediaLink from "./SocialMediaLink";
 
@@ -21,9 +21,13 @@ export default function BrandingFooter () {
 					<h3>Contact Us</h3>
 					<section className="py-4 space-y-1 text-zinc-400">
 						<p>You can call us at:</p>
-						<h4 className="text-zinc-200">{meta.contactMobile}</h4>
+						<h4 className="text-zinc-200">
+							<MobileNumber mobileNumber={meta.contactMobile} />
+						</h4>
 						<p>You can Email us at:</p>
-						<h4 className="text-zinc-200">{meta.contactEmail}</h4>
+						<h4 className="text-zinc-200">
+							<EmailID emailID={meta.contactEmail} />
+						</h4>
 					</section>
 				</section>
 
