@@ -5,7 +5,7 @@ import QuickLinksSection from "./QuickLinksSection/QuickLinksSection";
 
 export default function QuickLinksFooter () {
 	return (
-		<footer className="bg-zinc-950 text-zinc-300 py-12 text-left">
+		<footer className="bg-50 text-700 py-12 text-left">
 			<section className="max-w-5xl mx-auto px-6 py-4">
 				<header className="py-4">
 					<h1>Quick Links</h1>

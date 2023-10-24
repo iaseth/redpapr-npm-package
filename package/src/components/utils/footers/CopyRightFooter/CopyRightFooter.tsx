@@ -12,9 +12,9 @@ export default function CopyRightFooter ({
 	newtab=false
 }: CopyRightFooterProps) {
 	return (
-		<footer className={"bg-zinc-900 text-zinc-800 py-12 text-left " + className}>
-			<section className="max-w-5xl mx-auto px-6 py-4 grid md:grid-cols-2 gap-x-4 gap-y-6 text-zinc-500">
-				<section className="space-y-1">
+		<footer className={"bg-100 text-500 py-12 text-left " + className}>
+			<section className="max-w-5xl mx-auto px-6 py-4 grid md:grid-cols-2 gap-x-4 gap-y-6">
+				<section className="space-y-2">
 					<h3 className="text-red-500">
 						<a href="https://www.redpapr.com/">&copy; Redpapr</a>
 					</h3>

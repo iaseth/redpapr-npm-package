@@ -103,3 +103,223 @@ h1.homepage-section-heading {
 .red-link {
   @apply duration-300 hover:text-red-500;
 }
+
+.redpapr-theme-light .bg-50 {
+  @apply bg-zinc-50;
+}
+.redpapr-theme-light .text-50 {
+  @apply text-zinc-50;
+}
+.redpapr-theme-light .border-50 {
+  @apply border-zinc-50;
+}
+
+.redpapr-theme-dark .bg-50 {
+  @apply bg-zinc-950;
+}
+.redpapr-theme-dark .text-50 {
+  @apply text-zinc-950;
+}
+.redpapr-theme-dark .border-50 {
+  @apply border-zinc-950;
+}
+
+.redpapr-theme-light .bg-100 {
+  @apply bg-zinc-100;
+}
+.redpapr-theme-light .text-100 {
+  @apply text-zinc-100;
+}
+.redpapr-theme-light .border-100 {
+  @apply border-zinc-100;
+}
+
+.redpapr-theme-dark .bg-100 {
+  @apply bg-zinc-900;
+}
+.redpapr-theme-dark .text-100 {
+  @apply text-zinc-900;
+}
+.redpapr-theme-dark .border-100 {
+  @apply border-zinc-900;
+}
+
+.redpapr-theme-light .bg-200 {
+  @apply bg-zinc-200;
+}
+.redpapr-theme-light .text-200 {
+  @apply text-zinc-200;
+}
+.redpapr-theme-light .border-200 {
+  @apply border-zinc-200;
+}
+
+.redpapr-theme-dark .bg-200 {
+  @apply bg-zinc-800;
+}
+.redpapr-theme-dark .text-200 {
+  @apply text-zinc-800;
+}
+.redpapr-theme-dark .border-200 {
+  @apply border-zinc-800;
+}
+
+.redpapr-theme-light .bg-300 {
+  @apply bg-zinc-300;
+}
+.redpapr-theme-light .text-300 {
+  @apply text-zinc-300;
+}
+.redpapr-theme-light .border-300 {
+  @apply border-zinc-300;
+}
+
+.redpapr-theme-dark .bg-300 {
+  @apply bg-zinc-700;
+}
+.redpapr-theme-dark .text-300 {
+  @apply text-zinc-700;
+}
+.redpapr-theme-dark .border-300 {
+  @apply border-zinc-700;
+}
+
+.redpapr-theme-light .bg-400 {
+  @apply bg-zinc-400;
+}
+.redpapr-theme-light .text-400 {
+  @apply text-zinc-400;
+}
+.redpapr-theme-light .border-400 {
+  @apply border-zinc-400;
+}
+
+.redpapr-theme-dark .bg-400 {
+  @apply bg-zinc-600;
+}
+.redpapr-theme-dark .text-400 {
+  @apply text-zinc-600;
+}
+.redpapr-theme-dark .border-400 {
+  @apply border-zinc-600;
+}
+
+.redpapr-theme-light .bg-500 {
+  @apply bg-zinc-500;
+}
+.redpapr-theme-light .text-500 {
+  @apply text-zinc-500;
+}
+.redpapr-theme-light .border-500 {
+  @apply border-zinc-500;
+}
+
+.redpapr-theme-dark .bg-500 {
+  @apply bg-zinc-500;
+}
+.redpapr-theme-dark .text-500 {
+  @apply text-zinc-500;
+}
+.redpapr-theme-dark .border-500 {
+  @apply border-zinc-500;
+}
+
+.redpapr-theme-light .bg-600 {
+  @apply bg-zinc-600;
+}
+.redpapr-theme-light .text-600 {
+  @apply text-zinc-600;
+}
+.redpapr-theme-light .border-600 {
+  @apply border-zinc-600;
+}
+
+.redpapr-theme-dark .bg-600 {
+  @apply bg-zinc-400;
+}
+.redpapr-theme-dark .text-600 {
+  @apply text-zinc-400;
+}
+.redpapr-theme-dark .border-600 {
+  @apply border-zinc-400;
+}
+
+.redpapr-theme-light .bg-700 {
+  @apply bg-zinc-700;
+}
+.redpapr-theme-light .text-700 {
+  @apply text-zinc-700;
+}
+.redpapr-theme-light .border-700 {
+  @apply border-zinc-700;
+}
+
+.redpapr-theme-dark .bg-700 {
+  @apply bg-zinc-300;
+}
+.redpapr-theme-dark .text-700 {
+  @apply text-zinc-300;
+}
+.redpapr-theme-dark .border-700 {
+  @apply border-zinc-300;
+}
+
+.redpapr-theme-light .bg-800 {
+  @apply bg-zinc-800;
+}
+.redpapr-theme-light .text-800 {
+  @apply text-zinc-800;
+}
+.redpapr-theme-light .border-800 {
+  @apply border-zinc-800;
+}
+
+.redpapr-theme-dark .bg-800 {
+  @apply bg-zinc-200;
+}
+.redpapr-theme-dark .text-800 {
+  @apply text-zinc-200;
+}
+.redpapr-theme-dark .border-800 {
+  @apply border-zinc-200;
+}
+
+.redpapr-theme-light .bg-900 {
+  @apply bg-zinc-900;
+}
+.redpapr-theme-light .text-900 {
+  @apply text-zinc-900;
+}
+.redpapr-theme-light .border-900 {
+  @apply border-zinc-900;
+}
+
+.redpapr-theme-dark .bg-900 {
+  @apply bg-zinc-100;
+}
+.redpapr-theme-dark .text-900 {
+  @apply text-zinc-100;
+}
+.redpapr-theme-dark .border-900 {
+  @apply border-zinc-100;
+}
+
+.redpapr-theme-light .bg-950 {
+  @apply bg-zinc-950;
+}
+.redpapr-theme-light .text-950 {
+  @apply text-zinc-950;
+}
+.redpapr-theme-light .border-950 {
+  @apply border-zinc-950;
+}
+
+.redpapr-theme-dark .bg-950 {
+  @apply bg-zinc-50;
+}
+.redpapr-theme-dark .text-950 {
+  @apply text-zinc-50;
+}
+.redpapr-theme-dark .border-950 {
+  @apply border-zinc-50;
+}

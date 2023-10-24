@@ -8,7 +8,7 @@ interface SocialMediaLinkProps {
 
 export default function SocialMediaLink ({link}: SocialMediaLinkProps) {
 	return (
-		<li className="text-zinc-400">
+		<li className="text-600">
 			<h4 className="">
 				<a href={link.URL} target="_blank" className="block py-2 red-link flex items-stretch border border-transparent rounded hover:px-4 hover:bg-zinc-900 hover:border-red-500">
 					<span>{link.title}</span>

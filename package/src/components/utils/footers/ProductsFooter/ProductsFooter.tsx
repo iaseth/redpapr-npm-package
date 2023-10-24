@@ -10,7 +10,7 @@ export default function ProductsFooter () {
 	const stableProducts = products.filter(product => product.status === "stable");
 
 	return (
-		<footer className="py-12 bg-zinc-900 text-white">
+		<footer className="py-12 bg-100 text-950">
 			<section className="max-w-5xl px-6 py-4 mx-auto">
 				<header className="py-4">
 					<h1>Products</h1>
