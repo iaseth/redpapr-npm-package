@@ -29,7 +29,7 @@ if (document.location.hostname.search("ui.redpapr.com") !== -1) {
 				`}
 			</Script>
 			<body className={myFont.className}>
-				<main className="lg:h-screen text-white redpapr-theme-dark bg-100">
+				<main className="lg:h-screen text-white redpapr-theme-dark">
 					<Header />
 					<section className="bg-zinc-900 lg:flex items-stretch border-y border-red-600">
 						<Sidebar />

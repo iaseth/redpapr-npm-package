@@ -1,6 +1,9 @@
 
 $shades: 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950;
 
+.redpapr-theme-light { @apply bg-white text-zinc-950; }
+.redpapr-theme-dark { @apply bg-zinc-950 text-white; }
+
 @each $shade in $shades {
 	.redpapr-theme-light {
 		.bg-#{$shade} {
