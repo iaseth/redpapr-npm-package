@@ -26,6 +26,7 @@ export interface RedpaprJsonProduct {
 	tagline: string,
 	internalURL: string,
 	webURL: string,
+	features: string[]
 }
 
 export interface RedpaprJsonQuickLinkColumn {

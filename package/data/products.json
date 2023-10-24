@@ -5,7 +5,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
-		"webURL": "https://home.redpapr.com/"
+		"webURL": "https://home.redpapr.com/",
+		"features": []
 	},
 	{
 		"title": "RedQuest",
@@ -13,7 +14,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
-		"webURL": "https://quest.redpapr.com/"
+		"webURL": "https://quest.redpapr.com/",
+		"features": []
 	},
 	{
 		"title": "QCAB",
@@ -21,7 +23,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
-		"webURL": "https://qcab.redpapr.com/"
+		"webURL": "https://qcab.redpapr.com/",
+		"features": []
 	},
 	{
 		"title": "RedBlog",
@@ -29,6 +32,7 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
-		"webURL": "https://blog.redpapr.com/"
+		"webURL": "https://blog.redpapr.com/",
+		"features": []
 	}
 ]
