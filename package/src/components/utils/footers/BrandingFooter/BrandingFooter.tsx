@@ -1,5 +1,5 @@
 import { redpaprJson } from "../../../../data";
-import { Container, EmailID, MobileNumber } from "../../../base";
+import { EmailID, MobileNumber } from "../../../base";
 import { RedpaprIcon } from "../../branding";
 import SocialMediaLink from "./SocialMediaLink";
 
