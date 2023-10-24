@@ -1,5 +1,5 @@
-import { RedpaprJsonProduct } from "../../../../data";
-import { RedpaprIcon } from "../../branding";
+import { RedpaprJsonProduct } from "../../../../../data";
+import { RedpaprIcon } from "../../../branding";
 
 
 
