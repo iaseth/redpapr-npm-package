@@ -15,8 +15,14 @@ export default function BrandingFooter () {
 					<h4>Doing the Tech bit in EdTech.</h4>
 				</section>
 
-				<section>
+				<section className="">
 					<h2>Contact Us</h2>
+					<section className="py-4 space-y-1">
+						<p>You can call us at:</p>
+						<h4>{redpaprJson.meta.contactMobile}</h4>
+						<p>You can Email us at:</p>
+						<h4>{redpaprJson.meta.contactEmail}</h4>
+					</section>
 				</section>
 
 				<section>
