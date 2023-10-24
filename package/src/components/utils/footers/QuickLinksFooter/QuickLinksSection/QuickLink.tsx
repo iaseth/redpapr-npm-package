@@ -1,4 +1,4 @@
-import { RedpaprJsonQuickLink } from "../../../../data";
+import { RedpaprJsonQuickLink } from "../../../../../data";
 
 
 

@@ -1,4 +1,4 @@
-import { RedpaprJsonQuickLinkColumn } from "../../../../data/redpapr";
+import { RedpaprJsonQuickLinkColumn } from "../../../../../data/redpapr";
 import QuickLink from "./QuickLink";
 
 

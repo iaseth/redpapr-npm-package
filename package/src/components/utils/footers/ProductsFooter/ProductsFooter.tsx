@@ -13,11 +13,11 @@ export default function ProductsFooter () {
 		<footer className="py-12 bg-zinc-900 text-white">
 			<section className="max-w-5xl px-6 py-4 mx-auto">
 				<header className="py-4">
-					<h2>Products</h2>
+					<h1>Products</h1>
 				</header>
 
 				<section>
-					<ProductsSection products={stableProducts} heading="Stable" />
+					<ProductsSection products={stableProducts} />
 					<ProductsSection products={betaProducts} heading="In Beta" />
 					<ProductsSection products={alphaProducts} heading="Upcoming" />
 				</section>
