@@ -1,0 +1,21 @@
+
+h1, .h1, .p1 { @apply text-2xl; }
+h2, .h2, .p2 { @apply text-xl; }
+h3, .h3, .p3 { @apply text-lg; }
+h4, .h4, .p4 { @apply text-base; }
+h5, .h5, .p5 { @apply text-sm; }
+h6, .h6, .p6 { @apply text-xs; }
+
+.g0, .q0 { @apply text-9xl; }
+.g1, .q1 { @apply text-8xl; }
+.g2, .q2 { @apply text-7xl; }
+.g3, .q3 { @apply text-6xl; }
+.g4, .q4 { @apply text-5xl; }
+.g5, .q5 { @apply text-4xl; }
+.g6, .q6 { @apply text-3xl; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.g0, .g1, .g2, .g3, .g4, .g5, .g6 {
+	@apply font-bold leading-9;
+}

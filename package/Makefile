@@ -7,10 +7,10 @@ js:
 	npm run build
 
 css:
-	sass scss\redpapr.scss:css\redpapr.css
+	sass scss\redpapr.scss:css\redpapr.css --no-source-map
 
 watchcss:
-	sass --watch scss\redpapr.scss:css\redpapr.css
+	sass --watch scss\redpapr.scss:css\redpapr.css --no-source-map
 
 clean:
 	@rm -r dist css
