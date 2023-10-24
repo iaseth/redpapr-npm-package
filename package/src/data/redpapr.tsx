@@ -24,6 +24,8 @@ export interface RedpaprJsonProduct {
 	className: string,
 	description: string,
 	tagline: string,
+	androidAppURL: string,
+	iosAppURL: string,
 	internalURL: string,
 	webURL: string,
 	features: string[]

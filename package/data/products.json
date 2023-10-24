@@ -5,6 +5,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
 		"webURL": "https://home.redpapr.com/",
 		"features": []
 	},
@@ -14,6 +16,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
 		"webURL": "https://quest.redpapr.com/",
 		"features": []
 	},
@@ -23,6 +27,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
 		"webURL": "https://qcab.redpapr.com/",
 		"features": []
 	},
@@ -32,6 +38,8 @@
 		"description": "This is just some description about the app.",
 		"tagline": "This is the tagline",
 		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
 		"webURL": "https://blog.redpapr.com/",
 		"features": []
 	}
