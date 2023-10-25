@@ -1,6 +1,6 @@
 {
   "name": "redpapr-simple",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -17,7 +17,9 @@
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\""
   },
-  "keywords": ["redpapr"],
+  "keywords": [
+    "redpapr"
+  ],
   "author": "iaseth",
   "license": "LGPL-3.0-only",
   "devDependencies": {
