@@ -1,2 +1,2 @@
 
-export { REDPAPR_HOOKS_COUNT } from "./hooks";
+export { REDPAPR_HOOKS_COUNT, useSliderIndex } from "./hooks";
