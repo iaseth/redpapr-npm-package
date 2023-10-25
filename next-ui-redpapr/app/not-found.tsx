@@ -1,4 +1,4 @@
-import { H1 } from "../../package/src";
+import { H1 } from "../../simple/src";
 
 
 
