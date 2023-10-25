@@ -1,2 +1,2 @@
 
-export * from "../../simple/src/components";
+export * from "../../node/src/components";

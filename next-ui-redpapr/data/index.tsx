@@ -1,2 +1,2 @@
 
-export * from "../../simple/src/data";
+export * from "../../node/src/data";

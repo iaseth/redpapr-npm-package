@@ -1,6 +1,6 @@
 import RootLayout from '@/components/RootLayout/RootLayout';
 import './globals.css';
-import '../../simple/css/redpapr.css';
+import '../../node/css/redpapr.css';
 
 export const metadata = {
 	title: 'Redpapr',
