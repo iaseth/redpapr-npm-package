@@ -9,7 +9,7 @@ interface QuickLinkProps {
 export default function QuickLink ({link}: QuickLinkProps) {
 	return (
 		<li className="py-1">
-			<a href={link.URL} className="red-link">{link.title}</a>
+			<a href={link.URL} className="text-700 red-link">{link.title}</a>
 		</li>
 	);
 }

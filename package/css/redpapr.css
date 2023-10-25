@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6,
   @apply font-bold leading-9;
 }
 
+.slow {
+  @apply duration-300;
+}
+
 a.link {
   @apply text-blue-400 underline;
 }
@@ -64,7 +68,7 @@ a.link {
   @apply max-w-5xl mx-auto px-4 py-4;
 }
 
-button {
+.button {
   @apply px-5 py-4 font-bold bg-zinc-950 rounded shadow;
 }
 
@@ -76,11 +80,11 @@ button {
   @apply max-w-5xl mx-auto px-2 py-12;
 }
 
-header.homepage-section-header {
+.homepage-section-header {
   @apply text-center py-8;
 }
 
-footer.homepage-section-footer {
+.homepage-section-footer {
   @apply text-center py-8;
 }
 

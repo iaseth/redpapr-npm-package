@@ -11,8 +11,8 @@ export default function QuickLinksSection ({column}: QuickLinksSectionProps) {
 	return (
 		<section className="">
 			<header className="">
-				<h4>{column.heading}</h4>
-				<p className="p5">{column.description}</p>
+				<h4 className="text-900 uppercase">{column.heading}</h4>
+				<p className="p5 text-500">{column.description}</p>
 			</header>
 			<main>
 				<ul className="py-2 space-y-1 p5">
