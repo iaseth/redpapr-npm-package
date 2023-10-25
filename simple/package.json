@@ -1,12 +1,13 @@
 {
   "name": "redpapr-simple",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
   "files": [
     "dist",
+    "css",
     "LICENSE.md",
     "README.md"
   ],
