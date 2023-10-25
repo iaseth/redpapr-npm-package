@@ -1,6 +1,6 @@
 {
-  "name": "redpapr-simple",
-  "version": "0.3.0",
+  "name": "redpapr",
+  "version": "0.21.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -22,6 +22,8 @@
     "redpapr"
   ],
   "author": "iaseth",
+  "homepage": "https://github.com/iaseth/redpapr-npm-package",
+  "repository": "iaseth/redpapr-npm-package",
   "license": "LGPL-3.0-only",
   "devDependencies": {
     "@types/react": "^18.2.31",
