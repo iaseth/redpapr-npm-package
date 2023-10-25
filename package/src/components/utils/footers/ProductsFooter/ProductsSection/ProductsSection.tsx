@@ -14,7 +14,7 @@ export default function ProductsSection ({heading, products}: ProductsSectionPro
 	}
 
 	return (
-		<section>
+		<section className="py-2">
 			<header hidden={heading ? false : true}>
 				<h3>{heading}</h3>
 			</header>

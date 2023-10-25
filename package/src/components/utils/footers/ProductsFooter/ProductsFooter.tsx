@@ -16,7 +16,7 @@ export default function ProductsFooter () {
 					<h1>Products</h1>
 				</header>
 
-				<section>
+				<section className="space-y-4">
 					<ProductsSection products={stableProducts} />
 					<ProductsSection products={betaProducts} heading="In Beta" />
 					<ProductsSection products={alphaProducts} heading="Upcoming" />

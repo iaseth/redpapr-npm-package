@@ -46,5 +46,56 @@
 		"iosAppURL": "",
 		"webURL": "https://blog.redpapr.com/",
 		"features": []
+	},
+
+
+
+	{
+		"title": "RedRoom",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"status": "alpha",
+		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
+		"webURL": "https://room.redpapr.com/",
+		"features": []
+	},
+	{
+		"title": "RedGPT",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"status": "alpha",
+		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
+		"webURL": "https://gpt.redpapr.com/",
+		"features": []
+	},
+	{
+		"title": "RedTV",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"status": "alpha",
+		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
+		"webURL": "https://tv.redpapr.com/",
+		"features": []
+	},
+	{
+		"title": "RedChat",
+		"className": "app",
+		"description": "This is just some description about the app.",
+		"tagline": "This is the tagline",
+		"status": "alpha",
+		"internalURL": "/app",
+		"androidAppURL": "",
+		"iosAppURL": "",
+		"webURL": "https://chat.redpapr.com/",
+		"features": []
 	}
 ]
