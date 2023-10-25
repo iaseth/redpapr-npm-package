@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { H4 } from "../../../../package/src";
 
 
 
@@ -16,14 +15,14 @@ interface SidebarSectionProps {
 export default function SidebarSection ({heading, links}: SidebarSectionProps) {
 	return (
 		<section>
-			<header className="px-3 py-2 border-b-2 border-zinc-500 text-white">
-				<H4>{heading}</H4>
+			<header className="px-3 py-2 border-b-2 border-zinc-500 text-950">
+				<h4>{heading}</h4>
 			</header>
-			<footer className="px-0 py-3 space-y-1 text-zinc-300">
+			<footer className="px-0 py-2 text-700">
 				{links.map((link, k) => (
-					<H4 key={k}>
-						<Link href={link.href} className="block pl-6 pr-3 py-1 rounded hover:bg-zinc-800">{link.title}</Link>
-					</H4>
+					<p key={k}>
+						<Link href={link.href} className="block pl-6 pr-3 py-3 rounded slow hover:bg-red-500 hover:text-white">{link.title}</Link>
+					</p>
 				))}
 			</footer>
 		</section>

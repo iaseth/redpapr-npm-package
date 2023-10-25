@@ -5,8 +5,8 @@ import SidebarSection from "./SidebarSection";
 
 export default function Sidebar () {
 	return (
-		<aside className="w-full lg:w-1/4 lg:max-w-sm bg-zinc-950 border-b lg:border-r lg:border-b-0 border-red-600 flex flex-col">
-			<header className="px-4 py-8 text-center bg-zinc-900">
+		<aside className="w-full lg:w-1/4 lg:max-w-sm bg-50 border-b lg:border-r lg:border-b-0 border-red-600 flex flex-col">
+			<header className="px-4 py-8 text-center bg-100">
 				<H2>Redpapr</H2>
 				<H4>Redifining Education</H4>
 			</header>
@@ -20,7 +20,7 @@ export default function Sidebar () {
 				]} />
 			</section>
 
-			<footer className="bg-zinc-900 px-6 py-8 text-center">
+			<footer className="bg-100 px-6 py-8 text-center">
 				<h4>You can find the source code on <a href="https://github.com/iaseth/redpapr-npm-package">GitHub</a>.</h4>
 			</footer>
 		</aside>

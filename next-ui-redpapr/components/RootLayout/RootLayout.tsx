@@ -28,17 +28,15 @@ if (document.location.hostname.search("ui.redpapr.com") !== -1) {
 }
 				`}
 			</Script>
-			<body className={myFont.className}>
-				<main className="lg:h-screen text-white redpapr-theme-dark">
-					<Header />
-					<section className="bg-zinc-900 lg:flex items-stretch border-y border-red-600">
-						<Sidebar />
-						<section className="grow">
-							<article className="max-w-5xl mx-auto min-h-screen px-4 py-12 text-left">{children}</article>
-						</section>
+			<body className={myFont.className + " redpapr-theme-dark"}>
+				<Header />
+				<main className="bg-100 lg:flex items-stretch border-y border-red-600">
+					<Sidebar />
+					<section className="grow">
+						<article className="max-w-5xl mx-auto min-h-screen px-4 py-12 text-left">{children}</article>
 					</section>
-					<Footer />
 				</main>
+				<Footer />
 			</body>
 		</html>
 	);
