@@ -14,15 +14,7 @@ export function useSliderTimer ({
 	ms // milliseconds
 }: useSliderTimerProps) {
 	const [activeIndex, setActiveIndex] = React.useState(initialIndex);
-
-	const setActiveIndexSafe = (newIndex: number) => {
-		if (newIndex >= 0 && newIndex < bound) {
-			setActiveIndex(newIndex);
-		}
-	};
-
 	const goToNext = () => setActiveIndex(x => (x + 1 < bound) ? x + 1 : 0);
-	const goToPrev = () => setActiveIndex(x => (x > 0) ? x - 1 : bound - 1);
 
 	React.useEffect(() => {
 		const interval = setInterval(() => {
@@ -32,5 +24,5 @@ export function useSliderTimer ({
 		return () => clearInterval(interval);
 	}, []);
 
-	return [activeIndex, setActiveIndexSafe, goToPrev, goToNext];
+	return activeIndex;
 }
