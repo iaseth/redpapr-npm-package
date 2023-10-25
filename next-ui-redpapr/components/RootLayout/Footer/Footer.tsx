@@ -1,4 +1,4 @@
-import { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } from "../..";
+import { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } from "../../../redpapr";
 
 
 
