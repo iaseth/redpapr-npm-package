@@ -6,13 +6,22 @@ type useSliderIndexProps = {
 	bound: number,
 	ms?: number
 };
-type useSliderIndexRT = [number, () => void];
+type useSliderIndexRT = [
+	number,
+	(x: number) => void,
+	() => void
+];
 
 export function useSliderIndex ({
 	init=0,
 	bound, ms=1000
 }: useSliderIndexProps): useSliderIndexRT {
 	const [activeIndex, setActiveIndex] = React.useState<number>(init);
+	const setActiveIndexSafe = (x: number) => {
+		if (x >= 0 && x < bound) {
+			setActiveIndex(x);
+		}
+	};
 	const goToNext = () => setActiveIndex(x => (x + 1 < bound) ? x + 1 : 0);
 
 	const [paused, setPaused] = React.useState(false);
@@ -30,5 +39,5 @@ export function useSliderIndex ({
 		return () => clearInterval(interval);
 	}, []);
 
-	return [activeIndex, pauseOrPlay];
+	return [activeIndex, setActiveIndexSafe, pauseOrPlay];
 }
