@@ -1,2 +1,0 @@
-
-export { useCounter } from './hooks';
