@@ -2,7 +2,7 @@
 import {
 	TextSliderH1, TextSliderH2, TextSliderH3,
 	TextSliderH4, TextSliderH5, TextSliderH6,
-	TextSlider, Textron, useSliderIndex
+	TextSlider, Textron, useSliderIndex, DemoBox
 } from "../../../redpapr";
 
 
@@ -22,29 +22,43 @@ export default function Sliders() {
 				<h1>All about Sliders</h1>
 			</header>
 			<section>
-				<h4>This is a Textron</h4>
+				<p>This is a Textron</p>
 				<Textron {...{texts, activeIndex}} />
 
-				<h4>This is a TextSlider</h4>
-				<TextSlider {...{texts, activeIndex}} />
+				<p>This is a TextSlider</p>
+				<DemoBox>
+					<TextSlider {...{texts, activeIndex}} />
+				</DemoBox>
 
-				<h4>This is a TextSliderH1</h4>
-				<TextSliderH1 {...{texts, activeIndex}} />
+				<p>This is a TextSliderH1</p>
+				<DemoBox>
+					<TextSliderH1 {...{texts, activeIndex}} />
+				</DemoBox>
 
-				<h4>This is a TextSliderH2</h4>
-				<TextSliderH2 {...{texts, activeIndex}} />
+				<p>This is a TextSliderH2</p>
+				<DemoBox>
+					<TextSliderH2 {...{texts, activeIndex}} />
+				</DemoBox>
 
-				<h4>This is a TextSliderH3</h4>
-				<TextSliderH3 {...{texts, activeIndex}} />
+				<p>This is a TextSliderH3</p>
+				<DemoBox>
+					<TextSliderH3 {...{texts, activeIndex}} />
+				</DemoBox>
 
-				<h4>This is a TextSliderH4</h4>
-				<TextSliderH4 {...{texts, activeIndex}} />
+				<p>This is a TextSliderH4</p>
+				<DemoBox>
+					<TextSliderH4 {...{texts, activeIndex}} />
+				</DemoBox>
 
-				<h4>This is a TextSliderH5</h4>
-				<TextSliderH5 {...{texts, activeIndex}} />
+				<p>This is a TextSliderH5</p>
+				<DemoBox>
+					<TextSliderH5 {...{texts, activeIndex}} />
+				</DemoBox>
 
-				<h4>This is a TextSliderH6</h4>
-				<TextSliderH6 {...{texts, activeIndex}} />
+				<p>This is a TextSliderH6</p>
+				<DemoBox>
+					<TextSliderH6 {...{texts, activeIndex}} />
+				</DemoBox>
 			</section>
 		</section>
 	);

@@ -15,3 +15,4 @@ export { HeadingSlider, TextSliderH1, TextSliderH2,
 export { default as BetaInvitation } from "./BetaInvitation/BetaInvitation";
 export { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } from "./Footer";
 export { DownloadBannerHeader } from "./Header";
+export { DemoBox } from "./Docs";
