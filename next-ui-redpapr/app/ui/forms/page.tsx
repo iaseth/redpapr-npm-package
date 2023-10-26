@@ -3,8 +3,10 @@
 
 export default function Forms() {
 	return (
-		<header className="">
-			<h1>This is a Form</h1>
-		</header>
+		<section className="">
+			<header>
+				<h1>All about Forms</h1>
+			</header>
+		</section>
 	);
 }

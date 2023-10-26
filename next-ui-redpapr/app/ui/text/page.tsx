@@ -1,10 +1,19 @@
 
 
 
+const texts = [
+	"Uno",
+	"Dos",
+	"Tres",
+	"Cuatro"
+];
+
 export default function Text() {
 	return (
-		<header className="">
-			<h1>This is some Text</h1>
-		</header>
+		<section className="">
+			<header>
+				<h1>All about Texts</h1>
+			</header>
+		</section>
 	);
 }

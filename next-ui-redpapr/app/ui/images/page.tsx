@@ -3,8 +3,10 @@
 
 export default function Images() {
 	return (
-		<header className="">
-			<h1>This is an Image</h1>
-		</header>
+		<section className="">
+			<header>
+				<h1>All about Images</h1>
+			</header>
+		</section>
 	);
 }

@@ -15,7 +15,8 @@ export default function Sidebar () {
 					{"href": "/ui/text", "title": "Text"},
 					{"href": "/ui/images", "title": "Images"},
 					{"href": "/ui/forms", "title": "Forms"},
-					{"href": "/ui/buttons", "title": "Buttons"}
+					{"href": "/ui/buttons", "title": "Buttons"},
+					{"href": "/ui/sliders", "title": "Sliders"}
 				]} />
 			</section>
 
