@@ -8,6 +8,7 @@ interface RedpaprJson {
 	products: RedpaprJsonProduct[],
 	quickLinks: RedpaprJsonQuickLinkColumn[],
 	socialMedia: RedpaprJsonSocialMedia[],
+	testimonials: RedpaprJsonTestimonial[],
 }
 
 interface RedpaprJsonMeta {
@@ -48,4 +49,13 @@ export interface RedpaprJsonSocialMedia {
 	description: string,
 	username: string,
 	URL: string,
+}
+
+export interface RedpaprJsonTestimonial {
+	fullname: string,
+	title: string,
+	content: string[],
+	imageSrc: string,
+	homepage: boolean,
+	visible: boolean,
 }

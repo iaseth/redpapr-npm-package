@@ -280,5 +280,73 @@
 			"username": "redpapr",
 			"URL": "https://youtube.com/@redpapr"
 		}
+	],
+	"testimonials": [
+		{
+			"fullname": "The Person",
+			"title": "Great Man",
+			"content": [
+				"This a a sentence.",
+				"This a a another sentence."
+			],
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"homepage": true,
+			"visible": true
+		},
+		{
+			"fullname": "The Person",
+			"title": "Great Man",
+			"content": [
+				"This a a sentence.",
+				"This a a another sentence."
+			],
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"homepage": true,
+			"visible": true
+		},
+		{
+			"fullname": "The Person",
+			"title": "Great Man",
+			"content": [
+				"This a a sentence.",
+				"This a a another sentence."
+			],
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"homepage": true,
+			"visible": true
+		},
+		{
+			"fullname": "The Person",
+			"title": "Great Man",
+			"content": [
+				"This a a sentence.",
+				"This a a another sentence."
+			],
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"homepage": true,
+			"visible": true
+		},
+		{
+			"fullname": "The Person",
+			"title": "Great Man",
+			"content": [
+				"This a a sentence.",
+				"This a a another sentence."
+			],
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"homepage": true,
+			"visible": true
+		},
+		{
+			"fullname": "The Person",
+			"title": "Great Man",
+			"content": [
+				"This a a sentence.",
+				"This a a another sentence."
+			],
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"homepage": true,
+			"visible": true
+		}
 	]
 }
