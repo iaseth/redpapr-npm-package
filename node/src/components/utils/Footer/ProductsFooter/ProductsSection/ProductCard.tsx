@@ -12,9 +12,9 @@ export default function ProductCard ({product}: ProductCardProps) {
 	const webURL = alpha ? false : product.webURL;
 
 	return (
-		<a className={`block bg-50 text-900 border rounded ${alpha ? "border-blue-800" : "group border-red-800"}`} href={webURL || undefined} target="_blank">
-			<header className={`px-4 py-1 bg-red-700 text-white text-center ${alpha ? "bg-blue-700" : "bg-red-700"}`}>
-				<h5>{product.tagline}</h5>
+		<a className={`block bg-50 text-900 border rounded ${alpha ? "border-blue-900" : "group border-red-800"}`} href={webURL || undefined} target="_blank">
+			<header className={`px-4 py-1 text-white text-center ${alpha ? "bg-blue-700" : "bg-red-700"}`}>
+				<p className="p5 py-2">{product.tagline}</p>
 			</header>
 
 			<section className="px-4 py-5 bg-100">
