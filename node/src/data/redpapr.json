@@ -7,6 +7,64 @@
 		"contactEmail": "redpapr@gmail.com",
 		"contactMobile": "XXXXXXXXXX"
 	},
+	"plans": [
+		{
+			"title": "Free",
+			"description": "",
+			"features": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"limitations": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"paid": true,
+			"pricePerMonth": 100
+		},
+		{
+			"title": "Basic",
+			"description": "",
+			"features": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"limitations": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"paid": true,
+			"pricePerMonth": 100
+		},
+		{
+			"title": "Pro",
+			"description": "",
+			"features": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"limitations": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"paid": true,
+			"pricePerMonth": 100
+		},
+		{
+			"title": "Master",
+			"description": "",
+			"features": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"limitations": [
+				"Not a lot really!",
+				"Somewhat OK"
+			],
+			"paid": true,
+			"pricePerMonth": 100
+		}
+	],
 	"products": [
 		{
 			"title": "RedHome",

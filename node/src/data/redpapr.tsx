@@ -5,6 +5,7 @@ export const redMeta = redpaprJson.meta;
 
 interface RedpaprJson {
 	meta: RedpaprJsonMeta,
+	plans: RedpaprJsonPlan[],
 	products: RedpaprJsonProduct[],
 	quickLinks: RedpaprJsonQuickLinkColumn[],
 	socialMedia: RedpaprJsonSocialMedia[],
@@ -18,6 +19,15 @@ interface RedpaprJsonMeta {
 	tagline: string,
 	contactEmail: string,
 	contactMobile: string,
+}
+
+export interface RedpaprJsonPlan {
+	title: string,
+	description: string,
+	features: string[],
+	limitations: string[],
+	paid: boolean,
+	pricePerMonth: number,
 }
 
 export interface RedpaprJsonProduct {
