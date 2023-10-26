@@ -1,6 +1,6 @@
 {
   "name": "redpapr",
-  "version": "0.27.0",
+  "version": "0.28.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

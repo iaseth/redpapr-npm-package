@@ -8,8 +8,8 @@ interface QuickLinkProps {
 
 export default function QuickLink ({link}: QuickLinkProps) {
 	return (
-		<li className="py-1">
-			<a href={link.URL} className="text-700 red-link">{link.title}</a>
+		<li className="text-700 border-l-2 border-transparent slow hover:pl-3 hover:border-red-600">
+			<a href={link.URL} className="block py-1.5 red-link">{link.title}</a>
 		</li>
 	);
 }
