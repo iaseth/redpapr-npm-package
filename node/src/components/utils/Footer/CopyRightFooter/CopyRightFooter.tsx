@@ -18,7 +18,7 @@ export default function CopyRightFooter ({
 					<h3 className="text-red-500">
 						<a href="https://www.redpapr.com/">&copy; Redpapr</a>
 					</h3>
-					<p className="p5">Copyright &copy; 2023 Redpapr.</p>
+					<p className="p5">Copyright &copy; 2024 Redpapr.</p>
 					<p className="p5">All rights reserved.</p>
 				</section>
 
