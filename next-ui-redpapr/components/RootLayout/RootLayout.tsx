@@ -1,4 +1,4 @@
-import { Lato as myFontModule } from 'next/font/google';
+import { Ubuntu } from 'next/font/google';
 import Script from 'next/script';
 
 import Footer from "./Footer/Footer";
@@ -6,7 +6,7 @@ import Header from "./Header/Header";
 import Sidebar from './Sidebar/Sidebar';
 import React from 'react';
 
-const myFont = myFontModule({
+const sansSerif = Ubuntu({
 	subsets: ['latin'],
 	weight: ['400', '700']
 });
@@ -28,7 +28,7 @@ if (document.location.hostname.search("ui.redpapr.com") !== -1) {
 }
 				`}
 			</Script>
-			<body className={myFont.className + " redpapr-theme-dark"}>
+			<body className={`redpapr-theme-dark ${sansSerif.className}`}>
 				<Header />
 				<main className="bg-100 lg:flex items-stretch border-y border-red-600">
 					<Sidebar />
