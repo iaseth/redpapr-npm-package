@@ -3,8 +3,8 @@ import './globals.css';
 import '../../node/css/redpapr.css';
 
 export const metadata = {
-	title: 'Redpapr',
-	description: 'Redpapr Official Website',
+	title: 'Red UI',
+	description: 'Redpapr UI Documentation.',
 };
 
 export default RootLayout;
