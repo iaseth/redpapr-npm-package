@@ -18,7 +18,7 @@ def main():
 		jo[json_name] = json.load(open(json_file))
 
 	with open(OUTPUT_JSON_PATH, "w") as f:
-		json.dump(jo, f, indent="\t")
+		json.dump(jo, f, sort_keys=True, indent="\t")
 	print(f"Saved: '{OUTPUT_JSON_PATH}'")
 
 if __name__ == '__main__':

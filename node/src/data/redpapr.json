@@ -2,14 +2,13 @@
 	"meta": {
 		"appName": "Redpapr",
 		"appURL": "redpapr.com",
-		"description": "Redpapr is a dedicated online platform for UPSC CSE preparation.",
-		"tagline": "Doing the Tech bit in EdTech",
 		"contactEmail": "redpapr@gmail.com",
-		"contactMobile": "XXXXXXXXXX"
+		"contactMobile": "XXXXXXXXXX",
+		"description": "Redpapr is a dedicated online platform for UPSC CSE preparation.",
+		"tagline": "Doing the Tech bit in EdTech"
 	},
 	"plans": [
 		{
-			"title": "Free",
 			"description": "",
 			"features": [
 				"Not a lot really!",
@@ -20,10 +19,10 @@
 				"Somewhat OK"
 			],
 			"paid": true,
-			"pricePerMonth": 100
+			"pricePerMonth": 100,
+			"title": "Free"
 		},
 		{
-			"title": "Basic",
 			"description": "",
 			"features": [
 				"Not a lot really!",
@@ -34,10 +33,10 @@
 				"Somewhat OK"
 			],
 			"paid": true,
-			"pricePerMonth": 100
+			"pricePerMonth": 100,
+			"title": "Basic"
 		},
 		{
-			"title": "Pro",
 			"description": "",
 			"features": [
 				"Not a lot really!",
@@ -48,10 +47,10 @@
 				"Somewhat OK"
 			],
 			"paid": true,
-			"pricePerMonth": 100
+			"pricePerMonth": 100,
+			"title": "Pro"
 		},
 		{
-			"title": "Master",
 			"description": "",
 			"features": [
 				"Not a lot really!",
@@ -62,348 +61,349 @@
 				"Somewhat OK"
 			],
 			"paid": true,
-			"pricePerMonth": 100
+			"pricePerMonth": 100,
+			"title": "Master"
 		}
 	],
 	"products": [
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "beta",
+			"tagline": "This is the tagline",
 			"title": "RedHome",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "beta",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://home.redpapr.com/",
-			"features": []
+			"webURL": "https://home.redpapr.com/"
 		},
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "beta",
+			"tagline": "This is the tagline",
 			"title": "RedQuest",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "beta",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://quest.redpapr.com/",
-			"features": []
+			"webURL": "https://quest.redpapr.com/"
 		},
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "beta",
+			"tagline": "This is the tagline",
 			"title": "QCAB",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "beta",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://qcab.redpapr.com/",
-			"features": []
+			"webURL": "https://qcab.redpapr.com/"
 		},
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "beta",
+			"tagline": "This is the tagline",
 			"title": "RedBlog",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "beta",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://blog.redpapr.com/",
-			"features": []
+			"webURL": "https://blog.redpapr.com/"
 		},
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "alpha",
+			"tagline": "This is the tagline",
 			"title": "RedRoom",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "alpha",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://room.redpapr.com/",
-			"features": []
+			"webURL": "https://room.redpapr.com/"
 		},
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "alpha",
+			"tagline": "This is the tagline",
 			"title": "RedGPT",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "alpha",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://gpt.redpapr.com/",
-			"features": []
+			"webURL": "https://gpt.redpapr.com/"
 		},
 		{
+			"androidAppURL": "",
+			"className": "app",
+			"description": "This is just some description about the app.",
+			"features": [],
+			"internalURL": "/app",
+			"iosAppURL": "",
+			"status": "alpha",
+			"tagline": "This is the tagline",
 			"title": "RedTV",
-			"className": "app",
-			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "alpha",
-			"internalURL": "/app",
-			"androidAppURL": "",
-			"iosAppURL": "",
-			"webURL": "https://tv.redpapr.com/",
-			"features": []
+			"webURL": "https://tv.redpapr.com/"
 		},
 		{
-			"title": "RedChat",
+			"androidAppURL": "",
 			"className": "app",
 			"description": "This is just some description about the app.",
-			"tagline": "This is the tagline",
-			"status": "alpha",
+			"features": [],
 			"internalURL": "/app",
-			"androidAppURL": "",
 			"iosAppURL": "",
-			"webURL": "https://chat.redpapr.com/",
-			"features": []
+			"status": "alpha",
+			"tagline": "This is the tagline",
+			"title": "RedChat",
+			"webURL": "https://chat.redpapr.com/"
 		}
 	],
 	"quickLinks": [
 		{
+			"description": "This is just some description",
 			"heading": "Something",
-			"description": "This is just some description",
 			"links": [
 				{
-					"title": "One",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "One"
 				},
 				{
-					"title": "Two",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Two"
 				},
 				{
-					"title": "Three",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Three"
 				},
 				{
-					"title": "Four",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Four"
 				},
 				{
-					"title": "Five",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Five"
 				}
 			]
 		},
 		{
+			"description": "This is just some description",
 			"heading": "Something Else",
-			"description": "This is just some description",
 			"links": [
 				{
-					"title": "Alpha",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Alpha"
 				},
 				{
-					"title": "Beta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Beta"
 				},
 				{
-					"title": "Gamma",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Gamma"
 				},
 				{
-					"title": "Delta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Delta"
 				}
 			]
 		},
 		{
+			"description": "This is just some description",
 			"heading": "Something",
-			"description": "This is just some description",
 			"links": [
 				{
-					"title": "Alpha",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Alpha"
 				},
 				{
-					"title": "Beta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Beta"
 				},
 				{
-					"title": "Gamma",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Gamma"
 				},
 				{
-					"title": "Delta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Delta"
 				}
 			]
 		},
 		{
+			"description": "This is just some description",
 			"heading": "Something Else",
-			"description": "This is just some description",
 			"links": [
 				{
-					"title": "Alpha",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Alpha"
 				},
 				{
-					"title": "Beta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Beta"
 				},
 				{
-					"title": "Gamma",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Gamma"
 				},
 				{
-					"title": "Delta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Delta"
 				}
 			]
 		},
 		{
+			"description": "This is just some description",
 			"heading": "Something",
-			"description": "This is just some description",
 			"links": [
 				{
-					"title": "Alpha",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Alpha"
 				},
 				{
-					"title": "Beta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Beta"
 				},
 				{
-					"title": "Gamma",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Gamma"
 				},
 				{
-					"title": "Delta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Delta"
 				}
 			]
 		},
 		{
-			"heading": "Something Else",
 			"description": "This is just some description",
+			"heading": "Something Else",
 			"links": [
 				{
-					"title": "Alpha",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Alpha"
 				},
 				{
-					"title": "Beta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Beta"
 				},
 				{
-					"title": "Gamma",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Gamma"
 				},
 				{
-					"title": "Delta",
-					"URL": "https://www.redpapr.com/"
+					"URL": "https://www.redpapr.com/",
+					"title": "Delta"
 				}
 			]
 		}
 	],
 	"socialMedia": [
 		{
+			"URL": "https://facebook.com/redpapr",
+			"description": "",
 			"title": "Facebook",
-			"description": "",
-			"username": "redpapr",
-			"URL": "https://facebook.com/redpapr"
+			"username": "redpapr"
 		},
 		{
+			"URL": "https://instagram.com/redpapr",
+			"description": "",
 			"title": "Instagram",
-			"description": "",
-			"username": "redpapr",
-			"URL": "https://instagram.com/redpapr"
+			"username": "redpapr"
 		},
 		{
+			"URL": "https://t.me/redpapr",
+			"description": "",
 			"title": "Telegram",
-			"description": "",
-			"username": "redpapr",
-			"URL": "https://t.me/redpapr"
+			"username": "redpapr"
 		},
 		{
+			"URL": "https://twitter.com/redpapr",
+			"description": "",
 			"title": "Twitter",
-			"description": "",
-			"username": "redpapr",
-			"URL": "https://twitter.com/redpapr"
+			"username": "redpapr"
 		},
 		{
+			"URL": "https://whatsapp.com/channel/0029VaC9QZG5PO0vV2S72P01",
+			"description": "",
 			"title": "WhatsApp",
-			"description": "",
-			"username": "redpapr",
-			"URL": "https://whatsapp.com/channel/0029VaC9QZG5PO0vV2S72P01"
+			"username": "redpapr"
 		},
 		{
-			"title": "YouTube",
+			"URL": "https://youtube.com/@redpapr",
 			"description": "",
-			"username": "redpapr",
-			"URL": "https://youtube.com/@redpapr"
+			"title": "YouTube",
+			"username": "redpapr"
 		}
 	],
 	"testimonials": [
 		{
-			"fullname": "The Person",
-			"title": "Great Man",
 			"content": [
 				"This a a sentence.",
 				"This a a another sentence."
 			],
-			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"fullname": "The Person",
 			"homepage": true,
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"title": "Great Man",
 			"visible": true
 		},
 		{
-			"fullname": "The Person",
-			"title": "Great Man",
 			"content": [
 				"This a a sentence.",
 				"This a a another sentence."
 			],
-			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"fullname": "The Person",
 			"homepage": true,
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"title": "Great Man",
 			"visible": true
 		},
 		{
-			"fullname": "The Person",
-			"title": "Great Man",
 			"content": [
 				"This a a sentence.",
 				"This a a another sentence."
 			],
-			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"fullname": "The Person",
 			"homepage": true,
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"title": "Great Man",
 			"visible": true
 		},
 		{
-			"fullname": "The Person",
-			"title": "Great Man",
 			"content": [
 				"This a a sentence.",
 				"This a a another sentence."
 			],
-			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"fullname": "The Person",
 			"homepage": true,
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"title": "Great Man",
 			"visible": true
 		},
 		{
-			"fullname": "The Person",
-			"title": "Great Man",
 			"content": [
 				"This a a sentence.",
 				"This a a another sentence."
 			],
-			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"fullname": "The Person",
 			"homepage": true,
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"title": "Great Man",
 			"visible": true
 		},
 		{
-			"fullname": "The Person",
-			"title": "Great Man",
 			"content": [
 				"This a a sentence.",
 				"This a a another sentence."
 			],
-			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"fullname": "The Person",
 			"homepage": true,
+			"imageSrc": "https://ceo.redpapr.com/img/ceo/yellow-face-50.jpg",
+			"title": "Great Man",
 			"visible": true
 		}
 	]
