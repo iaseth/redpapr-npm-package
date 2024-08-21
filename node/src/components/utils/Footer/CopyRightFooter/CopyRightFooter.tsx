@@ -13,7 +13,7 @@ export default function CopyRightFooter ({
 }: CopyRightFooterProps) {
 	return (
 		<footer className={"bg-100 text-500 py-12 text-left " + className}>
-			<section className="max-w-5xl mx-auto px-6 py-4 grid md:grid-cols-2 gap-x-4 gap-y-6">
+			<section className="max-w-5xl mx-auto px-4 py-4 grid md:grid-cols-2 gap-x-4 gap-y-6">
 				<section className="space-y-2">
 					<h3 className="text-red-500">
 						<a href="https://www.redpapr.com/">&copy; Redpapr</a>

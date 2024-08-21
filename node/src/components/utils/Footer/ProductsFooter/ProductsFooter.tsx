@@ -11,7 +11,7 @@ export default function ProductsFooter () {
 
 	return (
 		<footer className="py-12 bg-100 text-950">
-			<section className="max-w-5xl px-6 py-4 mx-auto">
+			<section className="max-w-5xl px-4 py-4 mx-auto">
 				<header className="py-4">
 					<h1>Products</h1>
 				</header>
