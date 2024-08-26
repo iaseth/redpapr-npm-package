@@ -13,6 +13,7 @@ export { HeadingSlider, TextSliderH1, TextSliderH2,
 } from "./TextSlider/HeadingSliders";
 
 export { default as BetaInvitation } from "./BetaInvitation/BetaInvitation";
+export { default as RainbowBorder } from "./RainbowBorder/RainbowBorder";
 export { BrandingFooter, CopyRightFooter, ProductsFooter, QuickLinksFooter } from "./Footer";
 export { DownloadBannerHeader } from "./Header";
 export { DemoBox } from "./Docs";
