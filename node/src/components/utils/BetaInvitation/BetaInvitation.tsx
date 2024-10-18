@@ -16,13 +16,16 @@ export default function BetaInvitation () {
 					<a href="https://docs.google.com/forms/d/e/1FAIpQLSfhx5i4V_NKvgzhbRsRKyoB796Eyv0GLeBb74ERvp8ZV-09fQ/viewform?usp=sf_link" target="_blank" className="link">Request for an invite</a>
 				</h4>
 				<h4>
-					<a href="https://ir.redpapr.com/" className="link" target="_blank">Go to Redpaper IR Portal</a>
+					<a href="https://neo.redpapr.com/" className="link" target="_blank">Go to Redpapr Web App (Beta)</a>
 				</h4>
 				<h4>
-					<a href="https://pib.redpapr.com/" className="link" target="_blank">Go to Redpaper PIB Portal</a>
+					<a href="https://questions.redpapr.com/" className="link" target="_blank">Go to Redpapr Questions Portal</a>
 				</h4>
 				<h4>
-					<a href="https://questions.redpapr.com/" className="link" target="_blank">Go to Redpaper Questions Portal</a>
+					<a href="https://ir.redpapr.com/" className="link" target="_blank">Go to Redpapr IR Portal</a>
+				</h4>
+				<h4>
+					<a href="https://pib.redpapr.com/" className="link" target="_blank">Go to Redpapr PIB Portal</a>
 				</h4>
 				<h4>
 					<a href="https://home.redpapr.com/" className="link" target="_blank">Go to RedHome</a>
